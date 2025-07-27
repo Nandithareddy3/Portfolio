@@ -1,0 +1,54 @@
+.education {
+    padding: 80px 20px;
+    text-align: center;
+    background: #f9f3fc;
+    /* Light lavender tint */
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--clr-primary);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.heading::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--clr-primary);
+    margin: 8px auto 0;
+    border-radius: 6px;
+}
+
+.item {
+    background: var(--clr-bg-card);
+    padding: 28px 32px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    display: inline-block;
+    max-width: 600px;
+    margin: 0 auto;
+    transition: transform var(--transition), box-shadow var(--transition);
+    border: 1px solid #e8dff3;
+}
+
+.item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.subheading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--clr-primary);
+    margin-bottom: 6px;
+}
+
+.school {
+    margin-top: 4px;
+    font-size: 1rem;
+    color: var(--clr-text);
+}

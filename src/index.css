@@ -1,0 +1,34 @@
+/* ---------- CSS Reset ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- Theme Variables ---------- */
+:root {
+  --clr-bg-dark: #f4f2f9;
+  /* Very light lavender gray */
+  --clr-bg-light: #ffffff;
+  /* For cards and footer */
+  --clr-bg-card: #fefcff;
+  /* Soft off-white for contrast */
+  --clr-primary: #732d91;
+  /* Deep purple accent */
+  --clr-text: #1e1e1e;
+  /* Dark gray for text */
+  --radius: 12px;
+  --shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+  --transition: 0.3s ease;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: var(--clr-bg-dark);
+  /* Light lavender gray */
+  color: var(--clr-text);
+  /* Smooth readable dark gray */
+}

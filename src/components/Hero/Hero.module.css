@@ -1,0 +1,78 @@
+.hero {
+  width: 100vw;
+  min-height: 100vh;
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to bottom right, #fce4ec, #e3f2fd);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.profileImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 4px solid white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.title {
+  font-size: 1.4rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+.intro {
+  max-width: 600px;
+  margin: 20px auto;
+  color: #444;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.btnPrimary,
+.btnSecondary {
+  padding: 14px 28px;
+  margin: 0 12px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.btnPrimary {
+  background-color: #90caf9;
+  color: #fff;
+}
+
+.btnPrimary:hover {
+  background-color: #64b5f6;
+  transform: scale(1.05);
+}
+
+.btnSecondary {
+  background-color: #f48fb1;
+  color: #fff;
+}
+
+.btnSecondary:hover {
+  background-color: #f06292;
+  transform: scale(1.05);
+}

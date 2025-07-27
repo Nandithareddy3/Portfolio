@@ -1,0 +1,67 @@
+.projects {
+    padding: 80px 20px;
+    text-align: center;
+    background: var(--clr-bg-light);
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--clr-primary);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.heading::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--clr-primary);
+    margin: 8px auto 0;
+    border-radius: 6px;
+}
+
+.card {
+    background: var(--clr-bg-card);
+    padding: 32px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+    border-left: 5px solid var(--clr-primary);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--clr-primary);
+}
+
+.description {
+    margin: 10px 0;
+    color: var(--clr-text);
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: var(--clr-primary);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #6b21a8;
+}

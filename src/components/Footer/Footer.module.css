@@ -1,0 +1,28 @@
+.footer {
+    background: #ffffff;
+    /* clean white footer */
+    text-align: center;
+    padding: 24px 20px;
+    font-size: 0.95rem;
+    color: var(--clr-text);
+    border-top: 1px solid #e8dff3;
+}
+
+.footer a {
+    color: var(--clr-primary);
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 500;
+    transition: color var(--transition);
+}
+
+.footer a:hover {
+    color: #732d91;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        font-size: 0.9rem;
+        padding: 16px;
+    }
+}
